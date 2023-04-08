@@ -14,7 +14,6 @@ export class CounterComponent {
   
 
   constructor(private store: Store<{ count: AppState }>) {
-    debugger
     //this.count$ = store.select('count');
     this.count$ = store.pipe(select(selectCount)) 
   }

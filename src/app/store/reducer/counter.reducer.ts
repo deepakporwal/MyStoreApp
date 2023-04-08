@@ -5,7 +5,10 @@ import { Action } from '@ngrx/store';
 // Define the initial state
 const initialState = {
   count: 0,
-  todos: [],
+  todos: [{
+    id : 1,
+    task : 'read angular'
+  }],
   user: null,
   isLogin : false
 }

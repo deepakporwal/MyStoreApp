@@ -10,13 +10,15 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { LoginComponent } from './login/login.component';
 import counterReducer from './store/reducer/counter.reducer';
 import { CardComponent } from './card/card.component';
+import { PizzaComponent } from './pizza/pizza.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CounterComponent,
     LoginComponent,
-    CardComponent
+    CardComponent,
+    PizzaComponent
   ],
   imports: [
     BrowserModule,
